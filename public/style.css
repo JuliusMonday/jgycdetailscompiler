@@ -1,0 +1,118 @@
+/* Add your CSS styles here */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+/* for showdetails page */
+.heroSection{
+    background-color: #00470F;
+    width: 100%;
+    height: 20vh;
+    display: grid;
+    place-content: center;
+    color: #fff;
+    font-size: 40px;
+}
+input{
+    background-color: bisque;
+    width: 90%;
+    padding: 20px;
+    border: none;
+    border-radius: 15px;
+}
+.button1{
+    background-color: #00470F;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    width: 20%;
+    text-align: center;
+}
+
+.button2 >a{
+    color: #fff;
+    text-decoration: none;
+}
+.button2{
+    background-color: #E0DB2F;
+    color: #00470F;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 15px;
+    width: 20%;
+    text-align: center;
+}
+.button2:hover{
+    background-color: bisque;
+    color: #00470F;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 15px;
+    width: 20%;
+    text-align: center;
+}
+.buttonContainer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* for the table */
+/* Table styles */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid #00470F;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #00470F;
+    color: #fff;
+}
+
+/* Link styles */
+a {
+    color: #00470F;
+    text-decoration: none;
+    background-color: #E0DB2F;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: bisque;
+}
