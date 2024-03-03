@@ -28,9 +28,5 @@
     "mabise"
   ],
   "author": "Monday Chimaobi Julius (JuTeLabs)",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/JuliusMonday/jgycdetailscompiler/issues"
-  },
-  "homepage": "https://github.com/JuliusMonday/jgycdetailscompiler"
+  "license": "ISC"
 }
