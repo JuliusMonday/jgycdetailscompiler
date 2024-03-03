@@ -18,7 +18,7 @@ app.set('view engine', 'ejs');
 
 // Routes
 
-app.use('/', router);
+app.use('/', router)
 app.use("/submit", router)
 app.use("/", router)
 app.use('/', adminRouter);
